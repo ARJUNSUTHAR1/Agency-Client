@@ -34,7 +34,7 @@
 .page1 .box-img .img {
     margin-right: 50px;
     z-index: 999;
-    width: 1205px;
+    width: 100%;
     height: 751px;
 }
 
@@ -845,4 +845,121 @@ polyline {
 
 .cls-2 {
     fill: #47bb8d;
+}
+
+@media screen and (max-width : 890px) {
+    #services .services-cards{
+        flex-direction: column;
+        padding-right: 0px;
+    }
+    
+
+#imgrig .imgcntnr:nth-child(3) {
+    transform: translate(70%, -2%) rotate(6deg);}
+
+
+
+#services {
+    padding-top: 971px;
+    height: 250vh;}
+    #imgery {
+        flex-direction: column;
+    justify-content: center;}
+        .pricing {
+            height: 491vh}
+            .parent-pricing .div2 .container-4 {
+                width: 100%
+            }
+            
+
+.page1 .box-img .img{
+    height: 80vh;
+    
+}
+
+#services .services-cards .div1{
+    width: 90%;
+}
+#services .services-cards .div2{
+    width: 90%;
+}
+#services .services-cards .div3{
+    width: 90%;
+    height: 15vh;
+}
+#services .services-cards .div1 .container{
+    width: 100%;
+}
+#services .services-cards .div2 .container{
+    width: 100%;
+}
+.parent-pricing .div2 .container .box .proccess .points{
+    width: 90%;
+    height: 100%;
+    margin-left: 0px;
+}
+.parent-pricing .div2 .container .box2 .proccess2 .points{
+    width: 90%;
+    height: 100%;
+    margin-left: 0px;
+}
+.parent-pricing .div2 .container .box .proccess3 .points{
+    width: 90%;
+    height: 100%;
+    margin-left: 0px;
+}
+
+
+.proccess-4 .points {
+    flex-direction: column;
+    height: 100%;
+    gap:0px;
+}
+#services .services-cards .div1 .container #card .desc{
+    font-size: 3vw;
+}
+#services .services-cards .div1 .container #card .title{
+    font-size: 6vw;
+}
+
+#services .services-cards .div2 .container #card .desc{
+    font-size: 3vw;
+}
+#services .services-cards .div2 .container #card .title{
+    font-size: 6vw;
+}
+
+.parent-pricing .div2 .container-4 {
+    height: 500px;
+}
+.pricing-card .parent-pricing .div2 .container-4 .box{
+    height: 150vh;
+}
+.page1{height: 160vh;}
+.parent-pricing .div2 .container-4 .proccess-4 .points {
+    flex-direction: column;
+    height: 118vh;
+    gap:0px;
+}
+#imgrig .imgcntnr{
+    width: 50%;
+    height: 50%;
+}
+.emp-btn .btn{
+    top : 135%;
+    left: 0px;
+}
+
+.container-moon{
+    top: -66%;
+    left: 50%;
+}
+}
+
+@media screen and (max-width : 650px) {.page1{height: 130vh;}}
+@media screen and (max-width : 450px) {.page1{height: 100vh;}
+.container-moon{
+    top: -130%;
+    left: 50%;
+}
 }

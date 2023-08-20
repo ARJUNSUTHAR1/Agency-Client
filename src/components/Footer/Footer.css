@@ -159,3 +159,19 @@ ul {
         width: 100%;
     }
 }
+
+@media screen and (max-width : 890px) {
+    .footer{
+        height: 60%;
+    }
+
+}
+@media screen and (max-width : 700px) { .footer{
+    height: 65%;
+}}
+@media screen and (max-width : 500px) { .footer{
+    height: 70%;
+}}
+@media screen and (max-width : 400px) { .footer{
+    height: 85%;
+}}
