@@ -851,6 +851,7 @@ polyline {
     #services .services-cards{
         flex-direction: column;
         padding-right: 0px;
+        gap: 60px;
     }
     
 
@@ -860,8 +861,8 @@ polyline {
 
 
 #services {
-    padding-top: 971px;
-    height: 250vh;}
+    padding-top: 1050px;
+    height: 260vh;}
     #imgery {
         flex-direction: column;
     justify-content: center;}
@@ -953,6 +954,26 @@ polyline {
 .container-moon{
     top: -66%;
     left: 50%;
+}
+#services .services-cards .div3 h1{
+    font-size: 6vw;
+}
+#services .services-cards .div3 h1 span{
+    font-size: 8vw;
+}
+.parent-pricing .div1 h1{
+    line-height: 15px;
+    font-size: 3vw;
+}
+
+
+.parent-pricing .div2{
+    gap: 20px;
+}
+
+
+.parent-pricing .div2{
+    height: 41em;
 }
 }
 
